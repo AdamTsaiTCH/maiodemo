@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:maiotest/page/photo/photo_view.dart';
 import 'package:maiotest/page/photoDB/photo_db_edit_page.dart';
 
 import '../../core/photo_db_provider.dart';
-import '../../database/photo_db.dart';
 import '../../model/photo_model.dart';
 
 class PhotoDBPage extends ConsumerWidget {

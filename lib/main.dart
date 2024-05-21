@@ -3,8 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:maiotest/page/photo/photo_page.dart';
 import 'package:maiotest/page/photoDB/photo_db_page.dart';
 
-import 'model/photo_model.dart';
-
 void main() async {
   // Required for async calls in `main`
   WidgetsFlutterBinding.ensureInitialized();
